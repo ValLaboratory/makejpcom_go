@@ -30,7 +30,7 @@ var (
 	knbdir  = flag.String("k", "", "knbフォルダ位置")
 	diadir  = flag.String("d", "", "dataフォルダ位置")
 	outfile = flag.String("o", "", "jpcom.knb出力ファイル位置")
-	version = flag.String("v", "", "KNBフォルダ位置")
+	version = flag.String("v", "", "バージョン(yyyyMMdd)")
 	idtable = flag.String("t", "", "idtable.txtファイル位置")
 )
 
